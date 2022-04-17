@@ -16,3 +16,5 @@ Tone bells come in 4 colours. There is a starting note. Each tone bell increases
 * Yellow tone bells lighten the note very slightly.
 
 Stack tone bells on top of each other to create different notes. To play the resulting note, punch the stack of bells. You can also activate tone bells with mesecons, allowing you to play several notes at once to form chords.
+
+Explore what kinds of melodies you can make!
