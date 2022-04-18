@@ -52,7 +52,7 @@ local function createBell(colour, tone)
 		
 		mesecons = {effector = {
 			action_on = tone_bells.play,
-			rules = mesecon and mesecon.rules.flat
+			rules = mesecon and mesecon.rules.alldirs
 		}},
 		
 		groups = {cracky = 3, tone_bell = 1, tone_bell_tone = tone},
