@@ -55,7 +55,7 @@ local function createBell(colour, tone)
 			rules = mesecon and mesecon.rules.flat
 		}},
 		
-		groups = {oddly_breakable_by_hand = 1, tone_bell = 1, tone_bell_tone = tone},
+		groups = {cracky = 3, tone_bell = 1, tone_bell_tone = tone},
 		on_punch = tone_bells.play,
 		
 		on_place = function (itemstack, ...)
@@ -63,7 +63,9 @@ local function createBell(colour, tone)
 			
 			if pos then tone_bells.play(pos) end
 			return itemstack
-		end
+		end,
+		
+		sounds = {dig = ""}
 	})
 end
 
